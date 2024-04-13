@@ -1,6 +1,6 @@
 {
   "name": "image-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "这是一个适配云崽BOT的本地图发送插件",
   "main": "index.js",
   "type": "module",
