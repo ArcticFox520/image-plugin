@@ -15,9 +15,9 @@ export class example extends plugin {
       rule: [
         {
           /** 命令正则匹配 */
-          reg: '^#一言$',
+          reg: '^#来张图$',
           /** 执行方法 */
-          fnc: 'hitokoto'
+          fnc: 'image'
         }
       ]
     })
@@ -27,13 +27,13 @@ export class example extends plugin {
    * #一言
    * @param e oicq传递的事件参数e
    */
-  async hitokoto (e) {
+  async image (e) {
     /** e.msg 用户的命令消息 */
     logger.info('[用户命令]', e.msg)
     
-    let random = Math.random()*10
+    let random = Math.random()*100
     
-    let path = segment.image("/resources/${random}.png")
+    let path = segment.image("../resources/${random}.png")
     
     await this.e.reply(segment.image(`${path}`))
     
