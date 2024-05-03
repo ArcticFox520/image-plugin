@@ -1,6 +1,6 @@
 {
   "name": "image-plugin",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "这是一个适配云崽BOT的本地图发送插件",
   "main": "index.js",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArcticFox520/image-plugin.git"
+    "url": "https://github.com/ArcticFox520/image-plugin.git"
   },
   "keywords": [
     "Yunzai-Bot",

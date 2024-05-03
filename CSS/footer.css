@@ -1,27 +1,19 @@
 /* 页脚黑色透明 */
-/*
 #footer {
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 5px;
-  font-family: sans-serif;
-  text-align: center;
-  line-height: 1;
- -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  max-width: 50%;
-  max-height: 50%;
-  padding: 20px 40px;
+  board_color: "#ffffff80";
+  board_color_dark: "#00000080";
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
-#footer::before { 
+#footer::before {
   background: rgba(0, 0, 0, 0.5);
 }
  
 #footer #footer-wrap {
-  color: var(--font-color);  使用自定义变量设置文字颜色
+  color: var(--font-color);
 }
 
 #footer #footer-wrap a {
-  color: var(--font-color); 使用自定义变量设置链接颜色
+  color: var(--font-color);
 }
-*/
